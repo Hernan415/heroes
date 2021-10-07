@@ -1,0 +1,57 @@
+# Hospital
+
+# Employee
+  # name
+  # began_on
+  # terminated_on?
+  # employment_type
+
+# Security(Employee)
+  # methods
+    # guard_entrance
+    # patrol
+
+# Doctor(Employee)
+  # specialty
+  # method
+    # diagnose(patient)
+    # consult(patient)
+
+# Nurse(employee)
+  # type
+  # methods
+    # check_vitals(patient)
+    # organize_equipment
+    # pass_medication(patient)
+
+# Student(Nurse)
+  # methods
+    # follow_and_assist(Registered_nurse)
+
+
+# Registered_nurse(Nurse)
+  #methods
+    # assist(Doctor)
+    #
+
+# Surgeon(Doctor)
+  # methods
+    # perform_operation(patient)
+    # diagnose(patient)
+
+# Patient
+  # admitted_at
+  # discharged_at
+  # cause_of_death
+  # contacts
+  # methods
+    # receive_treatment
+
+#Contact
+    #type
+    #provider
+    #patient
+
+# Specialty
+  # name
+  # years_of_experience
